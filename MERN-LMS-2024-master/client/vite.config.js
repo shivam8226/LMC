@@ -4,11 +4,12 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/LMS2025/",
+  base: "/LMS/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
 });
+
 
